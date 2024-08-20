@@ -1,0 +1,28 @@
+/*start select clients*/
+.clients {
+  .container {
+    @include opacity($gray-color, 0.2);
+    .box {
+      p {
+        color: $gray-color;
+      }
+    }
+    .the-clinets {
+      ul {
+        li {
+          a {
+            display: block;
+            color: $white-color;
+            padding-bottom: 10px;
+            font-size: 1.1rem;
+            @include transition;
+            &:hover {
+              color: $red-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*end select clients*/

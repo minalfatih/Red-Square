@@ -1,0 +1,51 @@
+/*start contact*/
+.contact {
+  .container {
+    .email {
+      h1 {
+        color: $white-color;
+        margin: 0;
+        font-size: 2.5rem;
+        @include md {
+          font-size: 3rem;
+        }
+        @include lg {
+          font-size: 3.2rem;
+        }
+      }
+      a {
+        color: $red-color;
+        font-weight: bold;
+        font-size: 2.5rem;
+        @include md {
+          font-size: 3rem;
+        }
+        @include lg {
+          size: 3.2rem;
+        }
+      }
+    }
+    .social-links {
+      ul {
+        li {
+          a {
+            svg {
+              font-size: 1.3rem;
+              path {
+                fill: $white-color;
+                @include transition;
+                &:hover {
+                  fill: $red-color;
+                }
+              }
+            }
+          }
+          span {
+            color: $gray-color;
+          }
+        }
+      }
+    }
+  }
+}
+/*end contact*/

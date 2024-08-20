@@ -1,0 +1,68 @@
+/*start landing*/
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  @include md {
+    min-height: 160vh;
+  }
+  @include lg {
+    min-height: 180vh;
+  }
+  @include xl {
+    min-height: 200vh;
+  }
+  .container {
+    h1 {
+      color: $white-color;
+      font: {
+        family: serif;
+        size: 2.3rem;
+        weight: bold;
+      }
+      @include sm {
+        font-size: 3.5rem;
+      }
+      @include md {
+        font-size: 4rem;
+      }
+      @include lg {
+        font-size: 4.5rem;
+      }
+      @include xl {
+        width: 45%;
+      }
+    }
+    h2,
+    p {
+      color: $white-color;
+    }
+    h2 {
+      @include md {
+        font-size: 2rem;
+      }
+      @include lg {
+        font-size: 2.5rem;
+      }
+      @include xl {
+        width: 60%;
+      }
+    }
+    p {
+      @include lg {
+        font-size: 1.5rem;
+      }
+      @include xl {
+        width: 55%;
+      }
+    }
+  }
+}
+.image {
+  margin: 100px 0;
+  img {
+    width: 100%;
+  }
+}
+
+/*end landing*/
