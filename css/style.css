@@ -1,0 +1,273 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #111111;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*start header*/
+header .navbar-brand span {
+  background-color: #e31e3c;
+  width: 20px;
+  height: 20px;
+}
+
+header .work .nav-link {
+  color: #fefefe;
+}
+
+header .work .nav-link:hover {
+  color: #e31e3c;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+/*end header*/
+/*start landing*/
+.landing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media (min-width: 768px) {
+  .landing {
+    min-height: 160vh;
+  }
+}
+
+@media (min-width: 992px) {
+  .landing {
+    min-height: 180vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .landing {
+    min-height: 200vh;
+  }
+}
+
+.landing .container h1 {
+  color: #fefefe;
+  font-family: serif;
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+@media (min-width: 576px) {
+  .landing .container h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .landing .container h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .landing .container h1 {
+    font-size: 4.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .landing .container h1 {
+    width: 45%;
+  }
+}
+
+.landing .container h2,
+.landing .container p {
+  color: #fefefe;
+}
+
+@media (min-width: 768px) {
+  .landing .container h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .landing .container h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .landing .container h2 {
+    width: 60%;
+  }
+}
+
+@media (min-width: 992px) {
+  .landing .container p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .landing .container p {
+    width: 55%;
+  }
+}
+
+.image {
+  margin: 100px 0;
+}
+
+.image img {
+  width: 100%;
+}
+
+/*end landing*/
+/*start select clients*/
+.clients .container {
+  border: 1px solid rgba(133, 133, 133, 0.2);
+  border-right: 0;
+  border-left: 0;
+}
+
+.clients .container .box p {
+  color: #858585;
+}
+
+.clients .container .the-clinets ul li a {
+  display: block;
+  color: #fefefe;
+  padding-bottom: 10px;
+  font-size: 1.1rem;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.clients .container .the-clinets ul li a:hover {
+  color: #e31e3c;
+}
+
+/*end select clients*/
+/*start contact*/
+.contact .container .email h1 {
+  color: #fefefe;
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .contact .container .email h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact .container .email h1 {
+    font-size: 3.2rem;
+  }
+}
+
+.contact .container .email a {
+  color: #e31e3c;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .contact .container .email a {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact .container .email a {
+    size: 3.2rem;
+  }
+}
+
+.contact .container .social-links ul li a svg {
+  font-size: 1.3rem;
+}
+
+.contact .container .social-links ul li a svg path {
+  fill: #fefefe;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.contact .container .social-links ul li a svg path:hover {
+  fill: #e31e3c;
+}
+
+.contact .container .social-links ul li span {
+  color: #858585;
+}
+
+/*end contact*/
+/*start footer*/
+footer .container .the-projects {
+  background-image: linear-gradient(45deg, #e31e3c, #111111, #e31e3c, #111111);
+  background-size: 200% 200%;
+  -webkit-animation: move 10s ease infinite alternate;
+          animation: move 10s ease infinite alternate;
+  border-radius: 5px 5px 0 0;
+}
+
+@-webkit-keyframes move {
+  0% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
+}
+
+@keyframes move {
+  0% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
+}
+
+footer .container .the-projects p {
+  margin: 0;
+  color: #fefefe;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+footer .container .the-projects .work a {
+  color: #fefefe;
+  font-weight: 500;
+}
+
+/*end footer*/
+/*# sourceMappingURL=style.css.map */
