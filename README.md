@@ -3,12 +3,12 @@
 - We make all sorts of things. Things that move markets, compel audiences and sell product. We help great brands create what comes next.
 
 ## Screenshot
-![Ecwid](./design/redSqare.png)
+![Red Square](./design/redSqare.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://minalfatih.github.io/Ecwid-page/)
+- Solution URL: [Repo link](https://github.com/minalfatih/Red-Square)
+- Live Site URL: [Live link](https://minalfatih.github.io/Red-Square/)
 - 
 ### Built with
 
@@ -17,5 +17,6 @@
 - Flexbox
 - CSS Grid
 - Bootstrap
+- Sass
 - Mobile-first workflow
 - javascript
