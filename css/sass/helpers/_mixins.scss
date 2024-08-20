@@ -1,0 +1,43 @@
+// media query mixin
+@mixin sm {
+  @media (min-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media (min-width: #{$screen-xl-min}) {
+    @content;
+  }
+}
+
+// transtion effect
+@mixin transition {
+  transition: 0.3s ease-in-out;
+}
+
+// opacity mixin
+@mixin opacity($color, $alpha) {
+  border: 1px solid rgba($color, $alpha);
+  border-right: 0;
+  border-left: 0;
+}
+
+// animation mixin
+@mixin keyF($anim-name) {
+  @keyframes #{$anim-name} {
+    @content;
+  }
+}
